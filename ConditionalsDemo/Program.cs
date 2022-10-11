@@ -38,11 +38,8 @@
             switch (season)
             {
                 case Season.Autumn:
-                    Console.WriteLine("It's autumn and a beautiful season.");
-                    break;
-
                 case Season.Summer:
-                    Console.WriteLine("It's the perfect time to go to the beach.");
+                    Console.WriteLine("Oh, boy do we have a promotion for you!");
                     break;
 
                 default:
