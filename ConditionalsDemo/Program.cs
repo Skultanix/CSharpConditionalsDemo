@@ -18,6 +18,20 @@
             {
                 Console.WriteLine("It's evening");
             }
+
+            bool isGoldCustomer = true;
+           /* float price;
+
+            if (isGoldCustomer)
+                price = 19.95f;
+            else
+                price = 29.95f;*/
+
+
+            //Conditional Operator used for brevity instead of the if statement commented out above.
+            float price = (isGoldCustomer) ? 19.95f : 29.95f;
+
+            Console.WriteLine(price);
         }
     }
 }
