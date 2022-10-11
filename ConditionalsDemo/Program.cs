@@ -1,7 +1,7 @@
 ﻿namespace ConditionalsDemo
 {
-    internal class Program
-    {
+    internal partial class Program
+    {   
         static void Main(string[] args)
         {
             var hour = 10;
@@ -32,6 +32,8 @@
             float price = (isGoldCustomer) ? 19.95f : 29.95f;
 
             Console.WriteLine(price);
+
+
         }
     }
 }
