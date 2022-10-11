@@ -33,7 +33,22 @@
 
             Console.WriteLine(price);
 
+            var season = Season.Autumn;
 
+            switch (season)
+            {
+                case Season.Autumn:
+                    Console.WriteLine("It's autumn and a beautiful season.");
+                    break;
+
+                case Season.Summer:
+                    Console.WriteLine("It's the perfect time to go to the beach.");
+                    break;
+
+                default:
+                    Console.WriteLine("I don't understand that season?");
+                    break;
+            }
         }
     }
 }
